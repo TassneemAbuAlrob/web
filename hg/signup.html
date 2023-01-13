@@ -1,0 +1,141 @@
+
+
+<html>
+<head>
+    <title>Sign up form</title>
+    <link rel ="stylesheet" type="text/css" href="log.css">
+    <script src="https://kit.fontawesome.com/c3a80af4dd.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>signin-signup</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="signin-signup">
+        <form action="signup.php" method="post">
+            <h2 class="title">sign up</h2>
+            <table>
+                <tr>
+                    <td>
+                        <div class ="input-field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Name" name="name" required>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div></div>
+                    </td>
+                    <td>
+                        <div class ="input-field">
+                            <i class="fas fa-envelope"></i>
+                            <input type="text" placeholder="Email" name="email"required>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <div class ="input-field">
+                            <i class="fa fa-phone"></i>
+                            <input type="text" placeholder="Phone" name="phone"required>
+                        </div>
+                    </td>
+                    <td>
+                        <div></div>
+                    </td>
+                    <td>
+                        <div class ="input-field">
+                            <i class="fa fa-id-badge" ></i>
+                            <input type="text" placeholder="SIN" name="SIN"required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class ="input-field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="User Name" name="username"required>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div></div>
+                    </td>
+                    <td>
+                        <div class ="input-field">
+                            <i class="fa fa-address-card-o" ></i>
+                            <input type="text" placeholder="Address"name="address"required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td>
+                        <div class ="input-field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Password"name="password"required>
+                        </div>
+                    </td>
+                    <td>
+                        <div></div>
+                    </td>
+                    <td>
+                        <div class ="user-type">
+                            <input type="radio" name="gender" value="m" required> Male
+                            <input type="radio" name="gender" value="f" required>Female
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+
+                    <td>
+                        <div >
+                        </div>
+                    </td>
+                    <td>
+                        <div></div>
+                    </td>
+                    <td>
+                        <div class ="user-type">
+                            <input type="radio" name="user_level" value="m" required > manager
+                            <input type="radio" name="user_level" value="u" required>user
+                        </div>
+                    </td>
+
+                </tr>
+
+            </table>
+
+
+            <input type="submit" value="sign up" class="btn" name="submit">
+            <p class="social-text">Or sign in with social platform</p>
+            <div class="social-media">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-google"></i>
+
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
